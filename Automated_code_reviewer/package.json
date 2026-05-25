@@ -1,0 +1,20 @@
+{
+  "name": "automated_code_reviewer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Code Review platform with Emotion & Team Dynamics Awareness",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build": "npm run build --workspaces",
+    "install:all": "npm install && npm install --workspaces"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
