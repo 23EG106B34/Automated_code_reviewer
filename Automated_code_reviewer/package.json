@@ -15,6 +15,7 @@
     "backend"
   ],
   "devDependencies": {
+    "@vercel/node": "^5.8.5",
     "concurrently": "^9.1.2"
   }
 }

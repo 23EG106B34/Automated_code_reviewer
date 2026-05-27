@@ -5,3 +5,6 @@ dist/
 .envv
 *.log
 .DS_Store
+
+.vercel
+.env*
